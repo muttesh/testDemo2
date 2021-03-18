@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Success"
+		duration="19.55s"
+		durationms="19546"
+		type="root"
+		rid="18fb9a6ecbdc9240"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="mutteswara.rao.satti"
+		rxversion="9.4.1.0"
+		host="HDC2-L-DQD0X33"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="3/18/2021 11:04:38 AM"
+		timestampiso="2021-03-18T05:34:38"
+		endtime="3/18/2021 11:04:57 AM"
+		timeoutfactor="1"
+		runid=""
+		sutversion=""
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.908"
+			timeRelativeToTestModuleStartTime="00:06.908"
+			timeWallClock="11:04:45"
+			time="00:06.908"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key 'Alt+Tab' Press.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.984"
+			timeRelativeToTestModuleStartTime="00:06.984"
+			timeWallClock="11:04:45"
+			time="00:06.984"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'NewTabGoogleChrome.AddressAndSearchBar' at 634;11.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='New Tab - Google Chrome']/container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']"
+				itempath="container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']"
+				fullname="MyWebTest6Repository.NewTabGoogleChrome.AddressAndSearchBar"
+				id="9ed54845243641a881b11f3fa1620776"
+				timeout="60000"
+				codefile="c:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:16.996"
+			timeRelativeToTestModuleStartTime="00:16.996"
+			timeWallClock="11:04:55"
+			time="00:16.996"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence 'ra' with focus on 'NewTabGoogleChrome.AddressAndSearchBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='New Tab - Google Chrome']/container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']"
+				itempath="container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']"
+				fullname="MyWebTest6Repository.NewTabGoogleChrome.AddressAndSearchBar"
+				id="9ed54845243641a881b11f3fa1620776"
+				timeout="60000"
+				codefile="c:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.284"
+			timeRelativeToTestModuleStartTime="00:17.284"
+			timeWallClock="11:04:55"
+			time="00:17.284"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{Right}{Return}' with focus on 'NewTabGoogleChrome.AddressAndSearchBar'.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@title='New Tab - Google Chrome']/container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']"
+				itempath="container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']"
+				fullname="MyWebTest6Repository.NewTabGoogleChrome.AddressAndSearchBar"
+				id="9ed54845243641a881b11f3fa1620776"
+				timeout="60000"
+				codefile="c:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:17.631"
+			timeRelativeToTestModuleStartTime="00:17.631"
+			timeWallClock="11:04:55"
+			time="00:17.631"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RequestADemo' at 117;13.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div[1]/div/div/div[2]/a[@innertext='Request a demo']"
+				itempath=".//div[#'et_builder_outer_content']/div/div[1]/div/div/div[2]/a[@innertext='Request a demo']"
+				fullname="MyWebTest6Repository.ApplicationUnderTest.RequestADemo"
+				id="2a9113cbd29e4288b0db4bace2b9d410"
+				timeout="60000"
+				codefile="c:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\Recording1.cs"
+				codeline="98"
+				itemindex="4"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

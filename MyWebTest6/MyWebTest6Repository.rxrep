@@ -1,0 +1,127 @@
+﻿<repository
+id="9c96b064-67b1-40bd-8acd-2facb923bb1f"
+name="MyWebTest6Repository">
+	<codegen
+	classname="MyWebTest6Repository"
+	namespace="MyWebTest6">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="6481fca6-812c-4c09-a56b-4fe74bcb3a36"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ab45d332-106c-40d8-89c2-7f233816ce0f"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="2a9113cb-d29e-4288-b0db-4bace2b9d410"
+			name="RequestADemo"
+			refimgid="f646db1f-7de7-4fd5-b6a7-d88b11314fd4"
+			refpath="/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div[1]/div/div/div[2]/a[@innertext='Request a demo']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/dom[@domain='www.ranorex.com']//div[#'et_builder_outer_content']/div/div[1]/div/div/div[2]/a[@innertext='Request a demo']
+			</item>
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="94fd398d-45d7-4ffd-810f-9988077189e3"
+		isrooted="True"
+		name="NewTabGoogleChrome"
+		refpath="/form[@title='New Tab - Google Chrome']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,accessible"
+			capname="text"
+			id="9ed54845-2436-41a8-81b1-1f3fa1620776"
+			name="AddressAndSearchBar"
+			refimgid="95e1b0e3-18ae-47d6-8e44-e9a6a5204060"
+			refpath="/form[@title='New Tab - Google Chrome']/container/container/container[2]/container[1]/toolbar[1]/container[@accessiblerole='Grouping']/text[@accessiblename='Address and search bar']"
+			robustPath=""
+			searchtimeout="30000ms">
+				/form[@title='New Tab - Google Chrome']/container[@accessiblename='New Tab - Google Chrome']/container[@accessiblename='Google Chrome']/container[2]/container[1]/toolbar[1]/?/?/text[@accessiblename='Address and search bar']
+			</item>
+			<basepath>
+				/form[@title='New Tab - Google Chrome']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAKrSURBVDhPrY9fSBNxHMAHPtpDaWlZLZCisPK9
+9ObdqXNzujnX5aazpqKRkQ8qgQQJvVQajQgCbW428y3RSX/UoYiGVJv9sSm6u0KqUWRlDtvSu33p
+fr87hxG99YUP93Kfz/f7U/zXqc/I2MKWa5g5U0EvV6rmOKN6lTPkrbEGOsTp6eEZPdnYlJmeIv/+
+97yvt9k5kwbYUjWwJXkSelqEgmBRDgR1KhFi8fvgoFJWpLHmZya+qimzL5gKovGAcVOgWAzo5ICW
+gLfGgrGm9E2XZN+qZDzabAiIP0pyviSX6YC1FAlBEy0EjQTPGrN5tuQ4zxqO8ZyZcDOMIgEHDvRU
+91LtFhgykLBQkgvvzlXBfJ8Hej1crPPBR35ifGItNNIc/TpARMOPiEhkRBWJjhJL3MPcoziwz13D
+Ke9Ww8U6DUyLp873DYLpRhiK2sKguxaG4vYwzARDsP66GmL+PAkfBcI0bcUBUV5FAbLdDMPFJNqM
+ZUShGNBeDUODcwWWZ9tkORcH4AXVjAN7um1rIoCobS2Djv4PePOGjLDdXoEvgZtygJYCfqoFB9K6
+baHdoozY76wC57iPR9uRqLkifd3j34SfgWZBkhEkCP6cWhxQ3rMN73Kdgg0qh67D1MInOC+ejTa7
+xpZgZq4/9uu5Gm/G7/erBHijzcKBtM6KxlRnJaSK8k4cOQ3E/Qtw1tsBDV4XNHguwecprbwZBUiI
+TdOTLnvOVhxINGam7HBaF0VAogKzvasCkjotYB/Qxzfj032q5dYzygwsb0xHwKtUuqvGkIRI7irH
+HHQwsPgkf5NMLguzdYys/TnoklRHeU+Sw/Jjm8MCSXfM8NhbGMNv9qkE3kdPXq7fe1j+/R/DMAmH
+HCePJHeZraqeE42Rp1SL8IyqXX+pzYq/OT4KxW9HQeOvzs+EMAAAAABJRU5ErkJggg==
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="454133cd-f970-4022-82bc-6890c49c020b"
+		isrooted="True"
+		name="NewTab"
+		refimgid="3d83f13f-0b7d-47a6-8ca2-a76f960a9b17"
+		refpath="/dom[@domain='newtab']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='newtab']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

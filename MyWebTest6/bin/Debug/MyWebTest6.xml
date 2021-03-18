@@ -1,0 +1,259 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>MyWebTest6</name>
+    </assembly>
+    <members>
+        <member name="T:MyWebTest6.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyWebTest6.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the MyWebTest6Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyWebTest6.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyWebTest6.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyWebTest6.MyWebTest6Repository">
+            <summary>
+            The class representing the MyWebTest6Repository element repository.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.MyWebTest6Repository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6Repository.Instance">
+            <summary>
+            Gets the singleton class instance representing the MyWebTest6Repository element repository.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6Repository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6Repository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6Repository.NewTabGoogleChrome">
+            <summary>
+            The NewTabGoogleChrome folder.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6Repository.NewTab">
+            <summary>
+            The NewTab folder.
+            </summary>
+        </member>
+        <member name="T:MyWebTest6.MyWebTest6RepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:MyWebTest6.MyWebTest6RepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.MyWebTest6RepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.ApplicationUnderTestAppFolder.RequestADemo">
+            <summary>
+            The RequestADemo item.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.ApplicationUnderTestAppFolder.RequestADemoInfo">
+            <summary>
+            The RequestADemo item info.
+            </summary>
+        </member>
+        <member name="T:MyWebTest6.MyWebTest6RepositoryFolders.NewTabGoogleChromeAppFolder">
+            <summary>
+            The NewTabGoogleChromeAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.MyWebTest6RepositoryFolders.NewTabGoogleChromeAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTabGoogleChrome  folder.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.NewTabGoogleChromeAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.NewTabGoogleChromeAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.NewTabGoogleChromeAppFolder.AddressAndSearchBar">
+            <summary>
+            The AddressAndSearchBar item.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.NewTabGoogleChromeAppFolder.AddressAndSearchBarInfo">
+            <summary>
+            The AddressAndSearchBar item info.
+            </summary>
+        </member>
+        <member name="T:MyWebTest6.MyWebTest6RepositoryFolders.NewTabAppFolder">
+            <summary>
+            The NewTabAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.MyWebTest6RepositoryFolders.NewTabAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new NewTab  folder.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.NewTabAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.MyWebTest6RepositoryFolders.NewTabAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:MyWebTest6.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:MyWebTest6.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the MyWebTest6Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyWebTest6.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyWebTest6.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:MyWebTest6.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:MyWebTest6.Recording1.repo">
+            <summary>
+            Holds an instance of the MyWebTest6Repository repository.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:MyWebTest6.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:MyWebTest6.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:MyWebTest6.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:MyWebTest6.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

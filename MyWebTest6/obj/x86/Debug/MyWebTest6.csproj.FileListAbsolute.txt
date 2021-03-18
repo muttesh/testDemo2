@@ -1,0 +1,10 @@
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\bin\Debug\MyWebTest6.rxtmg
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\bin\Debug\MyWebTest6.rxtst
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\bin\Debug\MyWebTest6.exe.config
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\bin\Debug\MyWebTest6.xml
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\bin\Debug\MyWebTest6.exe
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\bin\Debug\MyWebTest6.pdb
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\obj\x86\Debug\MyWebTest6.csprojResolveAssemblyReference.cache
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\obj\x86\Debug\MyWebTest6.exe
+C:\Users\mutteswara.rao.satti\Documents\Ranorex\RanorexStudio Projects\MyWebTest6\MyWebTest6\obj\x86\Debug\MyWebTest6.pdb
